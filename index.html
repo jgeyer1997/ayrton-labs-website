@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ayrton Labs Inc.</title>
+  <meta name="description" content="Ayrton Labs Inc. is a holding company that builds and operates software applications.">
+  <meta name="theme-color" content="#05070d">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%2305070d'/%3E%3Ccircle cx='16' cy='16' r='7' fill='none' stroke='%2346e6ff' stroke-width='2'/%3E%3Ccircle cx='16' cy='16' r='2.5' fill='%2346e6ff'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <canvas id="field" aria-hidden="true"></canvas>
+  <div class="backdrop" aria-hidden="true"></div>
+
+  <header class="nav">
+    <a class="wordmark" href="#top" aria-label="Ayrton Labs home">
+      <span class="mark" aria-hidden="true"></span>
+      <span>Ayrton Labs</span>
+    </a>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <p class="eyebrow mono reveal"><span class="pulse" aria-hidden="true"></span>Software holding company</p>
+      <h1 class="reveal">We are<br><span class="grad">builders.</span></h1>
+      <p class="lede reveal">Ayrton Labs Inc. designs, develops, and operates a portfolio of software products.</p>
+      <div class="actions reveal">
+        <a class="btn" href="#contact">Get in touch <span aria-hidden="true">&rarr;</span></a>
+      </div>
+      <div class="readout mono reveal" aria-hidden="true">
+        <span>SYS <b>ONLINE</b></span>
+        <span>BUILD <b id="build">0000</b></span>
+        <span>LAT <b>12ms</b></span>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <p class="label mono">// 01 — What we do</p>
+      <div class="cards">
+        <article class="card reveal">
+          <span class="num mono">01</span>
+          <h2>Build</h2>
+          <p>We take products from first line of code to launch.</p>
+        </article>
+        <article class="card reveal">
+          <span class="num mono">02</span>
+          <h2>Operate</h2>
+          <p>We run, maintain, and improve the apps we own.</p>
+        </article>
+        <article class="card reveal">
+          <span class="num mono">03</span>
+          <h2>Grow</h2>
+          <p>We invest in what works and scale it.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <p class="label mono">// 02 — Contact</p>
+      <h2 class="reveal">Let&rsquo;s talk.</h2>
+      <a class="email reveal" href="mailto:info@ayrtonlabs.com">info@ayrtonlabs.com</a>
+    </section>
+  </main>
+
+  <footer class="footer mono">
+    <span>&copy; <span id="year">2026</span> Ayrton Labs Inc.</span>
+    <span>All rights reserved.</span>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
